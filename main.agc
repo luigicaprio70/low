@@ -22,6 +22,7 @@ language_load()
 screen_definition()
 estrai_pacchetti()
 image_load()
+reset_parameters()
 
 repeat
 	// ***** DEBUG INFO
@@ -51,10 +52,10 @@ repeat
     		splash_screen()	
     	endcase
     	case 2 // TitleScreen
-    		statusGame = 9 // Jump to the exit	
+    		statusGame = 3 // Jump to the game	
     	endcase
     	case 3 // Game
-    		// gioco()
+    		gioco()
     	endcase
     	case 5 // Options
     		

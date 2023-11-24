@@ -12,8 +12,23 @@
 ////////////////////////////////////////////////////////////////
 //
 Function gioco()
-	
-	
+	// Inizio il gioco vero e prorpio
+	// torna tutto nero
+	if pause = 0
+		// NON SONO IN PASUSA
+		if begin = 1
+			// SONO ALL'INIZIO DEL GIOCO
+			SetClearColor(0,0,0)
+			ClearScreen()
+			
+			begin = 0
+		else
+			// HO GIA' INIZIATO DA UN PO'
+		
+		endif
+	else
+		// SONO IN PAUSA
+	endif
 endfunction
 //
 Function splash_screen()

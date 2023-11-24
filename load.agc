@@ -62,3 +62,8 @@ Function image_load()
 	
 endfunction
 //
+Function reset_parameters()
+	Global pause as integer = 0
+	Global begin as integer = 1
+endfunction
+//
