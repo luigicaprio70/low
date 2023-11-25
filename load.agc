@@ -58,8 +58,11 @@ Function image_load()
 	SetSpriteVisible(idSprAgk,0)
 	// END LOGOS
 	
-	// Load others...
-	
+	// Load HERO
+	idImgHero = LoadImage("01.png")
+	idSprHero = CreateSprite(idImgHero)
+	SetSpriteVisible(idSprHero,0)
+	//
 endfunction
 //
 Function reset_parameters()

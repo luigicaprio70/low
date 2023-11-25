@@ -20,6 +20,13 @@ Function gioco()
 			// SONO ALL'INIZIO DEL GIOCO
 			SetClearColor(0,0,0)
 			ClearScreen()
+			// Sprite eroe visibile e al centro
+			SetSpriteOffset(idSprHero,8.0,8.0)
+			SetSpriteSize(idSprHero,8.0,8.0)
+			
+			SetSpritePositionByOffset(idSprHero,50.0,50.0)
+			SetSpriteVisible(idSprHero,1)
+			
 			
 			begin = 0
 		else
