@@ -22,7 +22,7 @@ Function gioco()
 			ClearScreen()
 			// Sprite eroe visibile e al centro
 			SetSpriteOffset(idSprHero,8.0,8.0)
-			SetSpriteSize(idSprHero,8.0,8.0)
+			SetSpriteSize(idSprHero,4.0,4.0)
 			
 			SetSpritePositionByOffset(idSprHero,50.0,50.0)
 			SetSpriteVisible(idSprHero,1)

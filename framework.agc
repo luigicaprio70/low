@@ -16,20 +16,20 @@ Function global_definition()
 		Set all the global variables
 		for the framework
 	*/
-	Global deviceWidth as integer				= 600
-	Global deviceHeight as integer					= 800
-	Global deviceSyncRate as integer			= 60
-	Global deviceFullScreen as integer		= 0
+	Global deviceWidth as integer				= 1024
+	Global deviceHeight as integer				= 768
+	Global deviceSyncRate as integer				= 60
+	Global deviceFullScreen as integer			= 1
 	Global deviceSystem as string				= "" 
-	Global deviceType as string				= ""
-	Global deviceLanguage as string			= ""
-	Global deviceKeyboard as integer			= 0	
-	Global deviceMaxWidth as float			= 0.0
-	Global deviceMaxHeight as float			= 0.0
+	Global deviceType as string					= ""
+	Global deviceLanguage as string				= ""
+	Global deviceKeyboard as integer				= 0	
+	Global deviceMaxWidth as float				= 0.0
+	Global deviceMaxHeight as float				= 0.0
 	Global deviceAspectRatio as float			= 0.0
 	
-	Global statusGame as integer				= 1 // 1 = SpalshScreen - 2 = TitleScreen - 3 = Game - 5 = Options - 8 = Pause - 9 = Exit
-	Global exitGame as integer				= 1
+	Global statusGame as integer					= 1 // 1 = SpalshScreen - 2 = TitleScreen - 3 = Game - 5 = Options - 8 = Pause - 9 = Exit
+	Global exitGame as integer					= 1
 	Global displayInfo as integer				= 0
 endfunction
 //

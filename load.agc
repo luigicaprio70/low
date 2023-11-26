@@ -49,7 +49,7 @@ Function image_load()
 	idImgAgk = LoadImage("splash/made-with-appgamekit-b.png")
 	
 	idSprAkamilab  = CreateSprite(idImgAkamilab)
-	SetSpriteSize(idSprAkamilab ,60 ,45 )
+	SetSpriteSize(idSprAkamilab ,20 ,30 )
 	SetSpriteVisible(idSprAkamilab,0)
 	//SetSpriteAngle(idSprAkamilab,45.0)
 	
